@@ -8,5 +8,6 @@ class Character < ActiveRecord::Base
   
   def build_show(options={})
     show = Show.create(options)
+    self.show = show
   end
 end
