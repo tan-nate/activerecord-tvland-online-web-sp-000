@@ -10,4 +10,9 @@ class Character < ActiveRecord::Base
     show = Show.create(options)
     self.show = show
   end
+  
+  def build_network(options={})
+    network = Network.create(options)
+    self.network = network
+  end
 end
