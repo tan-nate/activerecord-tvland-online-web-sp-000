@@ -1,0 +1,3 @@
+class AddCatchphraseToCharacters
+  
+end
